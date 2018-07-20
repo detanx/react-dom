@@ -1,0 +1,49 @@
+body{
+	margin:0;
+	font:14px "Lucida Grande",Helvetica,Arial,sans-serif;
+}
+
+ul,li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.containers {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.containers input {
+	margin-right: 20px;
+	width: 20%;
+}
+
+.containers ul li{
+	width: 100%;
+}
+
+.containers ul li span {
+	display: inline-block;
+	margin-top: 20px;
+	width: 25%;
+	text-align: center;
+}
+
+.containers ul li p {
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+}
+
+.containers ul li span.delete {
+	width: 25%;
+	min-width: 22px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+button {
+	cursor: pointer;
+}
